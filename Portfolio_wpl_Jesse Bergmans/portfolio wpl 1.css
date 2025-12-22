@@ -1,0 +1,36 @@
+* {
+    /*
+    padding: 0;
+    margin: 0;
+    */
+    box-sizing: border-box;
+}
+.navigatiebalk {
+    background: lightgray;
+    display: flex;
+}
+.navigatiebalk nav {
+    width: 100%;
+}
+
+.navigatiebalk ul {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    list-style: none;
+    padding: 20px;
+    justify-content: flex-end;
+}
+.introductie {
+    display: flex;
+    gap: 35px;
+    padding: 50px;
+}
+.foto img {
+    width: 40%;
+    height: 850px;
+}
+
+.introductietext {
+    margin-top: 40px;
+}
